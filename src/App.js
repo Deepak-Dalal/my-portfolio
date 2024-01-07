@@ -178,7 +178,7 @@ function App() {
             <div>Redux</div>
           </div>
           <div className='skill-image'>
-            <img src="Cpp-icon.png" alt="cpp-icon" height="100px"></img>
+            <img src="cpp-icon.png" alt="cpp-icon" height="100px"></img>
             <div>C++</div>
           </div>
           <div className='skill-image'>
