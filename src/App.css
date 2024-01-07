@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#header-row {
+  padding: 20px;
+  color: white;
+  font-size: 1.3rem;
+}
+#page-links {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.section-link {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+
+.section {
+  text-align: start;
+  margin: 60px;
+}
+.section-heading {
+  max-width: 1100px;
+  margin:auto;
+  color: rgb(182 75 75);
+}
+.section-link:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  justify-content: space-between;
+}
+#about-section-text {
+  display:flex;
+  flex-direction: column;
+  color: white;
+  max-width:660px;
+  justify-content: space-around;
+  text-align: start;
+}
+.typing-animation {
+  font-size: 70px;
+}
+
+.blinking-underscore {
+  display: inline-block;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 0;
+  }
+  51%, 100% {
+    opacity: 1;
+  }
+}
+#intro-about-me {
+  display:flex;
+}
+#about-section-image {
+  max-width: 300px;
+}
+
+
+#experience-section-content {
+  display: flex;
+  flex-direction: column;
+}
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+  width: 100%;
+  color: white;
+}
+.date {
+  max-width: 152px;
+}
+.experience {
+  display: flex;
+  max-width: 640px;
+  flex-direction: column;
+}
+.experience-top-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.multi-line-list {
+  list-style: none;
+  padding: 0;
+}
+
+.multi-line-list li {
+  margin-bottom: 8px; /* Optional: Adjust the margin between list items */
+}
+
+.multi-line-list li > div {
+  display: flex;
+  align-items: baseline; /* Align items to the baseline */
+}
+
+.multi-line-list .bullet-point {
+  margin-right: 8px; /* Optional: Adjust the space between the bullet point and text */
+}
+
+
+.skill-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color:white;
+  padding: 30px;
+  height: 150px
+}
+
+
+#projects-section {
+  color: white;
+}
+#projects-container {
+  display: flex;
+  flex-direction: column;
+}
+.project-thumbnail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;;
+  max-width: 400px; 
+}
+.project-link {
+  color: white;
+}
+.project-link:hover{
+  color: rgb(182 75 75);
+  cursor: pointer;
+}
+.project-description {
+  max-width: 600px;
+}
+
+
+.contact-option:hover {
+  cursor: pointer;
+}
