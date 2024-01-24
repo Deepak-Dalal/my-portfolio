@@ -226,7 +226,7 @@ function App() {
 
       <section className='section' id="projects-section">
         <div className='section-heading'><h1>Personal Projects</h1></div>
-        <center><h1>City Street Shops (Advance Ecommerce Application)</h1></center>
+        <center><h1>City Street Shops (Advanced Ecommerce Application)</h1></center>
         <div className='section-content' id='projects-container'>
           
           <div className='experience-container'>
@@ -237,7 +237,7 @@ function App() {
             <div className='project-description'>
               <div className='description'>
                 <p>
-                  An Advance E-commerce Web Application which helps street shops to sell their stuff
+                  An Advanced E-commerce Web Application which helps street shops to sell their stuff
                   online to customers within the same city.
                   <br /><br />
                   Top features:
@@ -250,6 +250,33 @@ function App() {
                 <li>Customer - Admin chat interface implementation using socket.io</li>
                 <li>Cloud NoSQL Database  (MongoDB Atlas)</li>
                 <li>Deployed and hosted on Render.com</li>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <br /><br /><br />
+        <center><h1>Chat Application</h1></center>
+        <div className='section-content' id='projects-container'>
+          
+          <div className='experience-container'>
+            <div className='project-thumbnail'>
+              <img src="chat-app-screen.png" alt="chat-app-screen" width="100%"></img>
+              <div className="project-link" onClick={() => window.open('https://github.com/Deepak-worthy/chat-app', '_blank')}>Source code and App link</div>
+            </div>
+            <div className='project-description'>
+              <div className='description'>
+                <p>
+                  A web based chat applciation like whatsapp web with all the required features.
+                  <br /><br />
+                  Top features:
+                </p>
+                <li>Live chat feature using socket.io</li>
+                <li>JWT based user authorization</li>
+                <li>Group chat and one-to-one chat features</li>
+                <li>Cloud storage of images</li>
+                <li>Live new chat message notification feature</li>
+                <li>Feature to indicate when the other user is typing</li>
               </div>
             </div>
           </div>
