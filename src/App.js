@@ -13,10 +13,10 @@ function App() {
     }
   };
   const handleDownload = () => {
-    const pdfUrl = 'resume.pdf';
+    const pdfUrl = 'my-resume.pdf';
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'resume.pdf';
+    link.download = 'my-resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
